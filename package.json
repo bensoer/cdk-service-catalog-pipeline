@@ -2,7 +2,7 @@
   "name": "cdk-service-catalog-pipeline",
   "version": "0.1.0",
   "bin": {
-    "cdk-service-catalog-pipeline": "bin/cdk-service-catalog-pipeline.js"
+    "pipeline-deploy": "bin/pipeline-deploy.js"
   },
   "scripts": {
     "build": "tsc",
