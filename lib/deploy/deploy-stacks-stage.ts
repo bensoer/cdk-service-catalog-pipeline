@@ -1,6 +1,6 @@
 import { Stage, StageProps } from "aws-cdk-lib";
 import { Construct } from "constructs";
-import { ServiceCatalogPortfolio } from "../sc-portfolios/service-catalog-portfolio";
+import { ServiceCatalogPortfolioStack } from "../sc-portfolios/service-catalog-portfolio-stack";
 
 
 export class DeployStacksStage extends Stage {
@@ -11,8 +11,8 @@ export class DeployStacksStage extends Stage {
 
         // add all stacks that are part of pipeline here
 
-        
-        new ServiceCatalogPortfolio(this, 'ServiceCatalogPortfolio')
+
+        new ServiceCatalogPortfolioStack(this, 'ServiceCatalogPortfolio')
 
 
     }

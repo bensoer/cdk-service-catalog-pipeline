@@ -4,7 +4,7 @@ import { Construct } from "constructs";
 import { S3BucketProduct } from "../sc-products/s3-bucket-product";
 
 
-export class ServiceCatalogPortfolio extends Stack {
+export class ServiceCatalogPortfolioStack extends Stack {
 
 
     constructor(scope: Construct, id:string, props?: StackProps){
